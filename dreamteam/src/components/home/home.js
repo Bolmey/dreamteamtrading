@@ -6,7 +6,6 @@ export default function home() {
     return (
         <div className="homeBody">
             <section className="headerSection">
-                <h3>HEADER PICTURE AND STUFF</h3>
                 <button className="paypalButton">Join The Dream Team!</button>
             </section>
 
@@ -16,9 +15,9 @@ export default function home() {
                 <h3>What Is Forex?</h3>
                 <div>
                     <p>Forex is a portmanteau of foreign currency and exchange. Foreign exchange is the process of changing one currency into another currency for a variety of reasons, usually for commerce, trading, or tourism. According to a 2019 triennial report from the Bank for International Settlements (a global bank for national central banks), the daily trading volume for forex reached $6.6 trillion in April 2019.</p>
-                    <button>Learn More</button>
+                    <button className="learnMore">Learn More</button>
                 </div>
-                
+
             </section>
 
 

@@ -18,6 +18,18 @@
     background-image: url("../../images/headerImage1.jpg");
     background-size: cover;
     color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.paypalButton{
+    background-color: white;
+    height: 40px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    border-radius: 10px;;
+    
+
 }
 
 
@@ -34,10 +46,18 @@
     color:white;
 }
 
+.aboutSection h3{
+    margin: 16px;
+}
+
 .aboutSection div {
     width: 90%;
     align-self: center;
     color:white;
+}
+
+.learnMore{
+    margin: 16px;
 }
 
 
