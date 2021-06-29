@@ -7,14 +7,12 @@
 
 .homeBody {
     width: 100vw;
-    border: green solid 1px;
 }
 
 /* ---------- Header Section ---------- */
 .headerSection {
     width: 100%;
     height: 32vh;
-    border: red solid 1px;
     background-image: url("../../images/headerImage1.jpg");
     background-size: cover;
     color:white;
@@ -42,7 +40,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: red solid 1px;
     color:white;
 }
 
@@ -58,6 +55,10 @@
 
 .learnMore{
     margin: 16px;
+    background-color: white;
+    height: 30px;
+    align-self: flex-end;
+    border-radius: 10px;;
 }
 
 
@@ -67,8 +68,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: red solid 1px;
     color:white;
+}
+
+.mt4Section h3{
+    margin-top: 16px;
 }
 
 .mt4Section div {
@@ -78,6 +82,7 @@
     flex-direction: column;
     align-items: center;
     color:white;
+    margin:16px;
 }
 
 .video-responsive {
@@ -103,12 +108,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: red solid 1px;
     color:white;
+}
+
+.disclaimerSection h2{
+    color: red;
+    margin-top: 16px;
+}
+.disclaimerSection p{
+    font-size: .80em;
 }
 
 .disclaimerSection div {
     width: 90%;
     align-self: center;
     color:white;
+    margin:16px;
 }

@@ -20,7 +20,7 @@ export default function home() {
 
             </section>
 
-
+            <hr></hr>
 
             <section className="mt4Section">
                 <h3>How to place trades on MT4</h3>
@@ -30,7 +30,7 @@ export default function home() {
                 </div>
             </section>
 
-
+            <hr></hr>
 
             <section className="disclaimerSection">
                 <h2>Risk Disclaimer</h2>
