@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    background-color: #12191f;
 }
 
 
@@ -12,11 +13,11 @@
 /* ---------- Header Section ---------- */
 .headerSection {
     width: 100%;
-    height: 40vh;
+    height: 32vh;
     border: red solid 1px;
-    background-image: url("../../images/headerImage.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("../../images/headerImage1.jpg");
+    background-size: cover;
+    color:white;
 }
 
 
@@ -30,12 +31,13 @@
     flex-direction: column;
     justify-content: center;
     border: red solid 1px;
+    color:white;
 }
 
 .aboutSection div {
     width: 90%;
     align-self: center;
-    background-color: teal;
+    color:white;
 }
 
 
@@ -46,15 +48,16 @@
     flex-direction: column;
     justify-content: center;
     border: red solid 1px;
+    color:white;
 }
 
 .mt4Section div {
     width: 90%;
     align-self: center;
-    background-color: teal;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color:white;
 }
 
 .video-responsive {
@@ -81,10 +84,11 @@
     flex-direction: column;
     justify-content: center;
     border: red solid 1px;
+    color:white;
 }
 
 .disclaimerSection div {
     width: 90%;
     align-self: center;
-    background-color: teal;
+    color:white;
 }
