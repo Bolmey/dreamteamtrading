@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+}
+
+
+
+.homeBody {
+    width: 100vw;
+    border: green solid 1px;
+}
+
+/* ---------- Header Section ---------- */
+.headerSection {
+    width: 100%;
+    height: 40vh;
+    border: red solid 1px;
+    background-image: url("../../images/headerImage.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+/* ---------- About Section ---------- */
+.aboutSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: red solid 1px;
+}
+
+.aboutSection div {
+    width: 90%;
+    align-self: center;
+    background-color: teal;
+}
+
+
+/* ---------- MT4 Section ---------- */
+.mt4Section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: red solid 1px;
+}
+
+.mt4Section div {
+    width: 90%;
+    align-self: center;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-responsive {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* ---------- Disclaimer Section ---------- */
+.disclaimerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: red solid 1px;
+}
+
+.disclaimerSection div {
+    width: 90%;
+    align-self: center;
+    background-color: teal;
+}
