@@ -9,6 +9,19 @@
     width: 100vw;
 }
 
+
+
+
+/* ----------Navbar---------- */
+
+.NavbarContainer{
+    background-color: #12191f;
+}
+
+.container{
+    background-color: #12191f;
+}
+
 /* ---------- Header Section ---------- */
 .headerSection {
     width: 100%;
