@@ -3,11 +3,28 @@
     background-color: #12191f;
 }
 
-
-
 .homeBody {
     width: 100vw;
 }
+
+/* ---------- Video Player ---------- */
+.video-responsive {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 
 /* ---------- Header Section ---------- */
 .headerSection {
@@ -56,6 +73,8 @@
 
 .aboutSection div {
     width: 90%;
+    display: flex;
+    flex-direction: column;
     align-self: center;
     color:white;
 }
@@ -92,22 +111,6 @@
     margin:16px;
 }
 
-.video-responsive {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-}
-
-.video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
 
 /* ---------- Disclaimer Section ---------- */
 .disclaimerSection {
@@ -131,4 +134,62 @@
     align-self: center;
     color:white;
     margin:16px;
+}
+
+
+
+
+
+/* -------------------- Desktop View -------------------- */
+@media only screen and (min-width: 768px) {
+
+    /* ---------- Video Player ---------- */
+    .video-responsive {
+    }
+
+    .video-responsive iframe {
+        height: 50%;
+        top: 25%;
+    }
+    
+    /* ---------- About Section ---------- */
+    .aboutSection {
+        flex-direction: row;
+    }
+    
+    .aboutSection div {
+        width: 35%;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .aboutSection p {
+        font-size: 28px;
+    }
+
+
+
+
+    /* ---------- MT4 Section ---------- */
+    .mt4Section {
+        flex-direction: row;
+    }
+
+    .mt4Section div {
+        width: 35%;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .mt4Section p {
+        font-size: 28px;
+    }
+
+
+
+
+
+
+
+
 }
