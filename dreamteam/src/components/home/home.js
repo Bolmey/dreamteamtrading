@@ -2,10 +2,32 @@ import React from 'react'
 import './home.css'
 import Mt4Video from "../mt4Video";
 import ForexVideo from "../forexVideo";
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function home() {
     return (
         <div className="homeBody">
+
+            <section className='NavbarContainer'>
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                    <Container>
+                        <Navbar.Brand href="#home">Dream Team Trading</Navbar.Brand>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav>
+                                <Nav.Link href="#deets">Twitter</Nav.Link>
+                                <Nav.Link eventKey={2} href="https://www.instagram.com/dream_team_trading/">
+                                    Instagram
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+            </section>
+
             <section className="headerSection">
                 <h1>Dream Team Trading</h1>
                 <button className="paypalButton">Join The Dream Team!</button>

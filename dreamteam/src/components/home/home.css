@@ -7,6 +7,7 @@
     width: 100vw;
 }
 
+<<<<<<< HEAD
 /* ---------- Video Player ---------- */
 .video-responsive {
     overflow: hidden;
@@ -25,6 +26,20 @@
     position: absolute;
 }
 
+=======
+
+
+
+/* ----------Navbar---------- */
+
+.NavbarContainer{
+    background-color: #12191f;
+}
+
+.container{
+    background-color: #12191f;
+}
+>>>>>>> f05107035e4ba1cd6588a06bcba6e0219e432b19
 
 /* ---------- Header Section ---------- */
 .headerSection {
