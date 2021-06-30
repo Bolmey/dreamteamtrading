@@ -24,7 +24,7 @@ export default function home() {
             <hr></hr>
 
             <section className="mt4Section">
-                <h3>How to place trades on MT4</h3>
+                <h3>How to place trades on MT4?</h3>
                 <div>
                     <p>The simplest way to open a trade in MetaTrader 4 is to use the 'Order' window and then place an instant order on the market. Select the currency pair of your choice by clicking on the 'Window' tab at the top of the MT4 platform, and then select 'New Window'.</p>
                     <YoutubeEmbed embedId="dQw4w9WgXcQ" />
