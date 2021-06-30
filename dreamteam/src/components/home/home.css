@@ -42,6 +42,7 @@
 
 .container{
     background-color: #12191f;
+    display: flex;
 }
 
 
@@ -98,14 +99,7 @@
     flex-direction: column;
     align-self: center;
     color:white;
-}
-
-.learnMore{
-    margin: 16px;
-    background-color: white;
-    height: 30px;
-    align-self: flex-end;
-    border-radius: 10px;;
+    margin:16px;
 }
 
 
@@ -171,14 +165,12 @@
 @media only screen and (min-width: 768px) {
 
     /* ---------- Video Player ---------- */
-    .video-responsive {
-    }
-
     .video-responsive iframe {
         height: 50%;
         top: 25%;
     }
-    
+
+
     /* ---------- About Section ---------- */
     .aboutSection {
         flex-direction: row;
