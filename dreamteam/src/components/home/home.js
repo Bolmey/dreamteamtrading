@@ -40,7 +40,7 @@ export default function home() {
                     <h3>What Is Forex?</h3>
                     <p>Forex is a portmanteau of foreign currency and exchange. Foreign exchange is the process of changing one currency into another currency for a variety of reasons, usually for commerce, trading, or tourism. According to a 2019 triennial report from the Bank for International Settlements (a global bank for national central banks), the daily trading volume for forex reached $6.6 trillion in April 2019.</p>
                 </div>
-                <ForexVideo embedId="dQw4w9WgXcQ" />
+                <ForexVideo embedId="lDR6AGBLOT8" />
             </section>
 
             <hr></hr>
@@ -50,7 +50,7 @@ export default function home() {
                     <h3>How to place trades on MT4?</h3>
                     <p>The simplest way to open a trade in MetaTrader 4 is to use the 'Order' window and then place an instant order on the market. Select the currency pair of your choice by clicking on the 'Window' tab at the top of the MT4 platform, and then select 'New Window'.</p>
                 </div>
-                <Mt4Video embedId="dQw4w9WgXcQ" />
+                <Mt4Video embedId="oTEFjcHt0rs" />
             </section>
 
             <hr></hr>
