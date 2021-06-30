@@ -35,6 +35,9 @@
 
 .NavbarContainer{
     background-color: #12191f;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .container{
@@ -54,6 +57,7 @@
     justify-content: flex-end;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .headerSection h1{
