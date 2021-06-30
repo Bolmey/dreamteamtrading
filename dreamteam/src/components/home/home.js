@@ -33,7 +33,7 @@ export default function home() {
                 <button className="paypalButton">Join The Dream Team!</button>
             </section>
 
-
+            <hr></hr>
 
             <section className="aboutSection">
                 <div>
@@ -61,6 +61,8 @@ export default function home() {
                     <p>Trading foreign exchange on margin carries a high level of risk, and may not be suitable for all investors. Before deciding to trade foreign exchange you should carefully consider your investment objectives, level of experience, and risk appetite. The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest money that you cannot afford to lose. You should be aware of all the risks associated with foreign exchange trading, and seek advice from an independent financial advisor if you have any doubts.</p>
                 </div>
             </section>
+
+            <hr></hr>
 
             <section className="footerSection">
                 <h2>Footer - Email - OtherLink - Phonenumber - Stuff</h2>
