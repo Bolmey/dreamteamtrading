@@ -3,27 +3,29 @@ import './modal.css'
 
 const Modal = props => {
 
-
     if (!props.show) {
+        console.log('show = false, return null')
         return null
+    } else {
+        console.log('show = true, return Model')
     }
 
-
     return (
-        <div className="modal">
+        <div className="modalmodal" onClick={props.onClose}>
 
-            <div className="modalContent">
+            <div className="modalContent" onClick={e => e.stopPropagation()}>
 
                 <div className="modalHeader">
                     <h4 className="modalTitle">Modal Title</h4>
                 </div>
 
                 <div className="modalBody">
-                    Modal Content
+                    You are all set! <br/>
+                    We will reach back out to you shortly
                 </div>
 
                 <div className="modalFooter">
-                    <button className="modalButton">Close</button>
+                    <button onClick={props.onClose} className="modalButton">Close</button>
                 </div>
 
             </div>
