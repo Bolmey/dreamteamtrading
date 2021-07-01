@@ -34,34 +34,38 @@
 /* ----------Navbar---------- */
 
 .NavbarContainer{
-    background-color: #512529;
+    background-color: #212529;
     position: absolute;
     top: 0;
     width: 100%;
 }
 
+.navbarColor {
+    background-color: #212529;
+}
+
 .navbar-dark .navbar-nav .nav-link{
-    background-color: #412529;
+    background-color: #212529;
 }
 
 .navbar-expand-lg .navbar-collapse {
-    background-color: #612529;
+    background-color: #212529;
 }
 
 
 .navbar-dark .navbar-brand {
-    background-color: #712529;
+    background-color: #212529;
 }
 
 .navbar-dark .navbar-toggler-icon{
-    background-color: #812529;
+    background-color: #212529;
 }
 
 .container{
     background-color: #212529;
     display: flex;
 }
-
+/* #212529 */
 
 
 /* ---------- Header Section ---------- */
@@ -189,6 +193,7 @@
 
 /* -------------------- Desktop View -------------------- */
 @media only screen and (min-width: 768px) {
+
 
     /* ---------- Video Player ---------- */
     .video-responsive {

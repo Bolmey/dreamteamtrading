@@ -13,7 +13,7 @@ export default function home() {
 
             <section className="headerSection">
                 <div className='NavbarContainer'>
-                    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                     <Navbar collapseOnSelect expand="lg" className="navbarColor"> {/*bg="dark" variant="dark" */}
                         <Container>
                             <Navbar.Brand className='navName' href="#home">Dream Team Trading</Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
