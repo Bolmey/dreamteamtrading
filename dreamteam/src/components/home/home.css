@@ -40,6 +40,15 @@
     width: 100%;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    background-color: #212529;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    background-color: #212529;
+}
+
+
 .navbar-dark .navbar-brand {
     background-color: #212529;
 }
