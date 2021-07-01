@@ -87,6 +87,7 @@
     flex-direction: column;
     justify-content: center;
     color:white;
+    overflow: hidden;
 }
 
 .aboutSection h3{
@@ -106,6 +107,7 @@
 /* ---------- MT4 Section ---------- */
 .mt4Section {
     width: 100%;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,19 +163,31 @@
 
 
 
+
+
+
+
+
+
+
 /* -------------------- Desktop View -------------------- */
 @media only screen and (min-width: 768px) {
 
     /* ---------- Video Player ---------- */
+    .video-responsive {
+    }
+
     .video-responsive iframe {
-        height: 50%;
-        top: 25%;
+        height: 30%;
+        width: 80%;
+        top: 35%;
     }
 
 
     /* ---------- About Section ---------- */
     .aboutSection {
         flex-direction: row;
+        height: 80vh;
     }
     
     .aboutSection div {
@@ -192,6 +206,7 @@
     /* ---------- MT4 Section ---------- */
     .mt4Section {
         flex-direction: row;
+        height: 80vh;
     }
 
     .mt4Section div {
@@ -207,7 +222,11 @@
 
 
 
-
+    /* ---------- Disclaimer Section ---------- */
+    .disclaimerSection {
+        width: 60%;
+        margin: auto;
+    }
 
 
 
