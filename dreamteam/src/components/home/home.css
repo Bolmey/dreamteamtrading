@@ -34,14 +34,22 @@
 /* ----------Navbar---------- */
 
 .NavbarContainer{
-    background-color: #12191f;
+    background-color: #212529;
     position: absolute;
     top: 0;
     width: 100%;
 }
 
+.navbar-dark .navbar-brand {
+    background-color: #212529;
+}
+
+.navbar-dark .navbar-toggler-icon{
+    background-color: #212529;
+}
+
 .container{
-    background-color: #12191f;
+    background-color: #212529;
     display: flex;
 }
 

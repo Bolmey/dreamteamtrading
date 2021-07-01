@@ -15,7 +15,7 @@ export default function home() {
                 <div className='NavbarContainer'>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                         <Container>
-                            <Navbar.Brand href="#home">Dream Team Trading</Navbar.Brand>
+                            <Navbar.Brand className='navName' href="#home">Dream Team Trading</Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav>
