@@ -34,7 +34,7 @@
 /* ----------Navbar---------- */
 
 .NavbarContainer{
-    background-color: #212529;
+    background-color: #512529;
     position: absolute;
     top: 0;
     width: 100%;
@@ -45,16 +45,16 @@
 }
 
 .navbar-expand-lg .navbar-collapse {
-    background-color: #212529;
+    background-color: #612529;
 }
 
 
 .navbar-dark .navbar-brand {
-    background-color: #212529;
+    background-color: #712529;
 }
 
 .navbar-dark .navbar-toggler-icon{
-    background-color: #212529;
+    background-color: #812529;
 }
 
 .container{
