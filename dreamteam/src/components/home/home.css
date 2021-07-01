@@ -234,7 +234,7 @@
     /* ---------- About Section ---------- */
     .aboutSection {
         flex-direction: row;
-        height: 80vh;
+        height: 60vh;
     }
     
     .aboutSection div {
@@ -253,7 +253,7 @@
     /* ---------- MT4 Section ---------- */
     .mt4Section {
         flex-direction: row;
-        height: 80vh;
+        height: 60vh;
     }
 
     .mt4Section div {
