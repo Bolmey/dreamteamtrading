@@ -76,7 +76,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: white;
+    color: white!important;
     background-color: #212529;
 }
 

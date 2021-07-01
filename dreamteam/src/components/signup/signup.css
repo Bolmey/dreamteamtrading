@@ -1,3 +1,57 @@
-.signupBody {
-    color: white;
+    .signupBody {
+        color: white;
+    }
+
+
+    .signupSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formDiv {
+
+    }
+
+    .form {
+        flex-direction: column;
+        border: red solid 1px;
+    }
+
+
+
+/* -------------------- Desktop View -------------------- */
+@media only screen and (min-width: 768px) {
+
+    .signupBody {
+        color: white;
+    }
+    
+    
+    .signupSection {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formDiv {
+        width: 60vw;
+        align-self: center;
+    }
+    
+    .form {
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 50%;
+        color: white;
+    }
+
+    input {
+        width: 50%;
+        color: white;
+    }
+
+
+    
+
 }
