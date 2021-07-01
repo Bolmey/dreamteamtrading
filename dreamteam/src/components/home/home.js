@@ -28,7 +28,7 @@ export default function home() {
                         </Container>
                     </Navbar>
                 </div>
-                <h1>Dream Team Trading</h1>
+                <h1>DreamTrading</h1>
                 <button className="paypalButton">Join The Dream Team!</button>
             </section>
 
