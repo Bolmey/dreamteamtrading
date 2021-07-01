@@ -12,9 +12,31 @@
 
     }
 
+    .joinHeader{
+        margin: 12px;
+    }
+
     .form {
         flex-direction: column;
-        border: red solid 1px;
+    }
+
+    textarea {
+        background-color: white;
+        width: 70%;
+    }
+
+    input {
+        background-color: white;
+        width: 70%;
+    }
+
+    .submitButton{
+        background-color: transparent;
+        width: 100px;
+        border-radius: 10px;
+        color: white;
+        margin-bottom: 12px;
+        border: 2px solid white;
     }
 
 
@@ -43,12 +65,10 @@
 
     textarea {
         width: 50%;
-        color: white;
     }
 
     input {
         width: 50%;
-        color: white;
     }
 
 
