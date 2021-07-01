@@ -48,7 +48,15 @@
     
 }
 
+.navName{
+    color: white;
+    background-color: #212529;
+    font-size: 1.2em;
+}
 
+.navbar-light .navbar-toggler-icon{
+    background-color: white;
+}
 
 .navbar-dark .navbar-nav .nav-link{
     background-color: #212529;
@@ -58,8 +66,17 @@
     background-color: #212529;
 }
 
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+
 
 .navbar-dark .navbar-brand {
+    background-color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
     background-color: #212529;
 }
 

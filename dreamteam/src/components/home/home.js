@@ -13,9 +13,9 @@ export default function home() {
 
             <section className="headerSection">
                 <div className='NavbarContainer'>
-                     <Navbar collapseOnSelect expand="lg" className="navbarColor"> {/*bg="dark" variant="dark" */}
+                    <Navbar collapseOnSelect expand="lg" className="navbarColor"> {/*bg="dark" variant="dark" */}
                         <Container>
-                            <Navbar.Brand className='navName' href="#home">Dream Team Trading</Navbar.Brand>
+                            <Navbar className='navName' href="#home">Dream Team Trading</Navbar>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav>
