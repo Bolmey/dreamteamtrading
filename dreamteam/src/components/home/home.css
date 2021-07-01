@@ -39,10 +39,16 @@
     top: 0;
     width: 100%;
 }
+.navbar-light .navbar-brand{
+    background-color: #212529;
+}
 
 .navbarColor {
     background-color: #212529;
+    
 }
+
+
 
 .navbar-dark .navbar-nav .nav-link{
     background-color: #212529;
@@ -196,8 +202,6 @@
 
 
     /* ---------- Video Player ---------- */
-    .video-responsive {
-    }
 
     .video-responsive iframe {
         height: 30%;
