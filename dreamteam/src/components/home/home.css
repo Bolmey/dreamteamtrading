@@ -200,6 +200,10 @@
         top: 35%;
     }
 
+    /* ---------- Header Section ---------- */
+    .headerSection h1{
+        font-size: 3em;
+    }
 
     /* ---------- About Section ---------- */
     .aboutSection {
