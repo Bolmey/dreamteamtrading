@@ -31,64 +31,7 @@
 }
 
 
-/* ----------Navbar---------- */
 
-.NavbarContainer{
-    background-color: #212529;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-.navbar-light .navbar-brand{
-    background-color: #212529;
-}
-
-.navbarColor {
-    background-color: #212529;
-    
-}
-
-.navName{
-    color: white;
-    background-color: #212529;
-    font-size: 1.2em;
-}
-
-.navbar-light .navbar-toggler-icon{
-    background-color: white;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-    background-color: #212529;
-}
-
-.navbar-expand-lg .navbar-collapse {
-    background-color: #212529;
-}
-
-.navbar-light .navbar-toggler{
-    background-color: white;
-}
-
-
-.navbar-dark .navbar-brand {
-    background-color: #212529;
-}
-
-.navbar-light .navbar-nav .nav-link{
-    color: white!important;
-    background-color: #212529;
-}
-
-.navbar-dark .navbar-toggler-icon{
-    background-color: #212529;
-}
-
-.container{
-    background-color: #212529;
-    display: flex;
-}
-/* #212529 */
 
 
 /* ---------- Header Section ---------- */
