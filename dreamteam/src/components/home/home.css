@@ -49,15 +49,18 @@
     background-color: transparent;
     font-size: 2.7em;
     position: relative;
-    bottom: 545px;
+    bottom: 300px;
 }
 
 .paypalButton{
-    background-color: white;
+    background-color: #12191f;
     height: 40px;
+    width: 160px;
     align-self: center;
-    margin: 12px;
-    border-radius: 10px;;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    border: 2px #30ff00 solid;
+    color: #30ff00;
 }
 
 .companyNameHeading{
@@ -66,10 +69,14 @@
     font-size: 10em;
     text-shadow: 3px 3px #167600;
     color: #30ff00;
+
 }
 
 .signupLink{
     background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 260px; 
 }
 
 
@@ -183,6 +190,12 @@
         font-size: 10em;
         text-shadow: 8px 3px #167600;
         color: #30ff00;
+    }
+
+    .paypalButton{
+    height: 60px;
+    width: 311px;
+    font-size: 2em;
     }
 
 
