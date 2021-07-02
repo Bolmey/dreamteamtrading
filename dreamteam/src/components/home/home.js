@@ -13,7 +13,7 @@ export default function Home() {
 
             <section className="headerSection">
                 <NavbarSection />
-                <h1>DreamTrading</h1>
+                <h1 className='companyNameHeading'>Dream Team Trading</h1>
                 <Link className="signupLink" to="/signup">
                     <button className="paypalButton">Join The Dream Team!</button>
                 </Link>

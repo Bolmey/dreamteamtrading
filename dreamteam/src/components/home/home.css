@@ -31,9 +31,6 @@
 }
 
 
-
-
-
 /* ---------- Header Section ---------- */
 .headerSection {
     width: 100%;
@@ -51,6 +48,8 @@
 .headerSection h1{
     background-color: transparent;
     font-size: 2.7em;
+    position: relative;
+    bottom: 545px;
 }
 
 .paypalButton{
@@ -63,7 +62,7 @@
 
 .companyNameHeading{
     position: relative;
-    bottom: 545px; 
+    bottom: 465px; 
     font-size: 10em;
     text-shadow: 3px 3px #167600;
     color: #30ff00;
@@ -148,6 +147,12 @@
     align-self: center;
     color:white;
     margin:16px;
+}
+
+
+/* ---------- Footer Section ---------- */
+.footerSection {
+    color:white;
 }
 
 
