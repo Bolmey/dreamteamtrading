@@ -107,7 +107,7 @@
 
 .headerSection h1{
     background-color: transparent;
-    font-size: 2em;
+    font-size: 2.7em;
 }
 
 .paypalButton{
@@ -116,8 +116,18 @@
     align-self: center;
     margin: 12px;
     border-radius: 10px;;
-    
+}
 
+.companyNameHeading{
+    position: relative;
+    bottom: 545px; 
+    font-size: 10em;
+    text-shadow: 3px 3px #167600;
+    color: #30ff00;
+}
+
+.signupLink{
+    background-color: transparent;
 }
 
 
@@ -228,13 +238,16 @@
 
     /* ---------- Header Section ---------- */
     .headerSection h1{
-        font-size: 3em;
+        font-size: 10em;
+        text-shadow: 8px 3px #167600;
+        color: #30ff00;
     }
+
 
     /* ---------- About Section ---------- */
     .aboutSection {
         flex-direction: row;
-        height: 60vh;
+        height: 50vh;
     }
     
     .aboutSection div {
@@ -253,7 +266,7 @@
     /* ---------- MT4 Section ---------- */
     .mt4Section {
         flex-direction: row;
-        height: 60vh;
+        height: 50vh;
     }
 
     .mt4Section div {
