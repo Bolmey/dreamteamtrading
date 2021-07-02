@@ -10,20 +10,41 @@
 }
 
 .modalContent {
-    width: 500px;
+    width: 334px;
+    height: 230px;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .modalHeader, .modalFooter {
     padding: 10px;
+    background-color: transparent;
+}
+
+.modalHeader h4{
+    font-size: 3em;
 }
 
 .modalTitle {
     margin: 0;
+    color: black;
+    background-color: transparent;
 }
 
 .modalBody {
     padding: 10px;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    background-color: transparent;
+    color: black;
+    font-size: 1.3em;
+}
+
+.modalButton{
+    background-color: black;
+    border-radius: 10px;
+    width: 85px;
+    height: 37px;
+    color: white;
+    font-size: 1.2em;
 }

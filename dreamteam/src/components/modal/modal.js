@@ -20,7 +20,7 @@ const Modal = props => {
                 </div>
 
                 <div className="modalBody">
-                    You are all set! <br/>
+                    You are all set! <br />
                     We will reach back out to you shortly
                 </div>
 
