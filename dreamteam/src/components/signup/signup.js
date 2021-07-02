@@ -6,6 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import emailjs from 'emailjs-com';
 import Modal from '../modal/modal'
+import Footer from '../footer/footer'
+import NavbarSection from '../navbar/navbar'
 
 export default function Signup() {
 
@@ -28,6 +30,8 @@ export default function Signup() {
 
     return (
         <div className="signupBody">
+
+            <NavbarSection />
 
             <section className="signupSection">
                 <h1 className="joinHeader">Join the Dream Team Today!</h1>
@@ -55,6 +59,8 @@ export default function Signup() {
 
 
             <Modal onClose={() => setShow(false)} show={show} />
+
+            <Footer />
 
         </div>
     )
