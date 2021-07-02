@@ -7,6 +7,7 @@ import Footer from '../footer/footer'
 import NavbarSection from '../navbar/navbar'
 
 
+
 export default function Home() {
     return (
         <div className="homeBody">
