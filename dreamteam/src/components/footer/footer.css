@@ -1,6 +1,11 @@
 /* ---------- Footer Section ---------- */
 .footerSection {
     color:white;
+    display: flex;
+    justify-content: center;
+    bottom: 1rem;
+    border-top: white solid 1px;
+    width: 100vw;
 }
 
 
@@ -8,5 +13,9 @@
 
 /* -------------------- Desktop View -------------------- */
 @media only screen and (min-width: 768px) {
+
+    .footerSection { 
+        position: absolute;
+    }
 
 }

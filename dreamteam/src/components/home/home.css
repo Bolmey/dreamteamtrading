@@ -176,6 +176,11 @@
 /* -------------------- Desktop View -------------------- */
 @media only screen and (min-width: 768px) {
 
+    .homeBody {
+        position: relative;
+        padding-bottom: 4rem;
+    }
+
 
     /* ---------- Video Player ---------- */
 

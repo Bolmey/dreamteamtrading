@@ -49,7 +49,6 @@ export default function Home() {
                 </div>
             </section>
 
-            <hr></hr>
 
             <Footer />
 

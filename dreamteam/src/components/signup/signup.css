@@ -1,5 +1,9 @@
     .signupBody {
         color: white;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .imageDiv {
@@ -65,6 +69,7 @@
 
     .signupBody {
         color: white;
+        position: relative;
     }
     
     .imageDiv {
