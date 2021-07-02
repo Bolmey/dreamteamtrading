@@ -56,10 +56,11 @@ export default function Signup() {
                     </div>
                 </div>
 
-                <button onClick={() => setShow(true)}>Open Model</button>
-
-                <h1>What's Next?</h1>
-                <p>Once you submit your Name, Email, and Message we will reply back with an Invoice.</p>
+                <hr></hr>
+                <div className='nextContainer'>
+                    <h1>What's Next?</h1>
+                    <p>Once you submit your Name, Email, and Message we will reply back with an Invoice.</p>
+                </div>
             </section>
 
 

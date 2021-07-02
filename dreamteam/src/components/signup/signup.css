@@ -63,6 +63,18 @@
         width: 30%;
     }
 
+    .nextContainer{
+        height: 120px;
+        width: 80%;
+        margin: auto;
+        /* background-color: white; */
+    }
+
+    .nextContainer h1, p{
+        background-color: transparent;
+        color: white;
+    }
+
 
 /* -------------------- Desktop View -------------------- */
 @media only screen and (min-width: 768px) {
