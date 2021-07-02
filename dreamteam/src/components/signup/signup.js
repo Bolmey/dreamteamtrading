@@ -34,21 +34,26 @@ export default function Signup() {
             <NavbarSection />
 
             <section className="signupSection">
-                <h1 className="joinHeader">Join the Dream Team Today!</h1>
 
-                <div className="formDiv">
-                    <form onSubmit={sendEmail} className="form">
+                <div className="formHeaderSwitch">
 
-                        <label>Name:</label><br />
-                        <input type="text" name="user_name" /><br /><br />
-                        <label>Email:</label><br />
-                        <input type="email" name="user_email" /><br /><br />
-                        <label>Message:</label><br />
-                        <textarea name="message" >Default Message In Here.. I want to join please send invoice</textarea><br /><br />
-                        <input onClick={() => setShow(true)} type="submit" value="Send" />
+                    <div className="imageDiv" />
+
+                    <div className="formDiv">
+                        <h1 className="joinHeader">Join the Dream Team Today!</h1>
+                        <form onSubmit={sendEmail} className="form">
+
+                            <label>Name:</label><br />
+                            <input type="text" name="user_name" /><br /><br />
+                            <label>Email:</label><br />
+                            <input type="email" name="user_email" /><br /><br />
+                            <label>Message:</label><br />
+                            <textarea name="message" >Default Message In Here.. I want to join please send invoice</textarea><br /><br />
+                            <input onClick={() => setShow(true)} type="submit" value="Send" className="signupButton" />
 
 
-                    </form>
+                        </form>
+                    </div>
                 </div>
 
                 <button onClick={() => setShow(true)}>Open Model</button>

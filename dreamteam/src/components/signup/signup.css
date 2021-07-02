@@ -2,6 +2,22 @@
         color: white;
     }
 
+    .imageDiv {
+        height: 30vh;
+        width: 90vw;
+        background-image: url(../../images/drew-beamer-Vc1pJfvoQvY-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-self: center;
+    }
+
+    .formHeaderSwitch {
+        flex-direction: column;
+        display: flex;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
 
     .signupSection {
         display: flex;
@@ -39,6 +55,9 @@
         border: 2px solid white;
     }
 
+    .signupButton {
+        width: 30%;
+    }
 
 
 /* -------------------- Desktop View -------------------- */
@@ -48,6 +67,16 @@
         color: white;
     }
     
+    .imageDiv {
+        height: 30vh;
+        width: 30vw;
+        margin: 0;
+    }
+
+    .formHeaderSwitch {
+        flex-direction: row;
+        justify-content: center;
+    }
     
     .signupSection {
         display: flex;
@@ -55,8 +84,9 @@
     }
     
     .formDiv {
-        width: 60vw;
+        width: 30vw;
         align-self: center;
+        margin: 0;
     }
     
     .form {
@@ -64,11 +94,11 @@
     }
 
     textarea {
-        width: 50%;
+        width: 80%;
     }
 
     input {
-        width: 50%;
+        width: 80%;
     }
 
 
